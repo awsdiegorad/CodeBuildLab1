@@ -16,21 +16,5 @@ phases:
       - echo Build completed on `date`
 artifacts:
   files:
-    - target/messageUtil-1.0.jarpublic class MessageUtil {
-  private String message;
+    - target/messageUtil-1.0.jarpublic 
 
-  public MessageUtil(String message) {
-    this.message = message;
-  }
-
-  public String printMessage() {
-    System.out.println(message);
-    return message;
-  }
-
-  public String salutationMessage() {
-    message = "Hi!" + message;
-    System.out.println(message);
-    return message;
-  }
-}Authenticating...
